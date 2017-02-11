@@ -100,7 +100,7 @@ while(<STDIN>) {
 
   for (my $i = 0; $i < $n; $i++) {
     for (my $j = 0; $j < @property_refs; $j++ ){
-      print "${$property_refs[$j]}[$i]";
+      print "${$property_refs[$j]}[$i] ";
     }
     print "\n";
   }
